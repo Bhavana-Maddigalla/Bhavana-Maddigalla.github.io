@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maddigalla Bhavana | Software Engineer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fa;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 85px 20px;
+        }
+
+        header h1 {
+            font-size: 44px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #cbd5e1;
+        }
+
+        nav {
+            background: white;
+            padding: 16px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        section {
+            max-width: 950px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: #0f172a;
+            font-size: 30px;
+            margin-bottom: 25px;
+            border-left: 5px solid #2563eb;
+            padding-left: 12px;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            margin: 18px 0;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+
+        .card h3 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #eff6ff;
+            color: #1e40af;
+            border: 1px solid #bfdbfe;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .certificate {
+            border-left: 4px solid #2563eb;
+        }
+
+        .buttons a {
+            display: inline-block;
+            background: #1e40af;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin: 8px 8px 8px 0;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .buttons a:hover {
+            background: #2563eb;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #cbd5e1;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 65px 20px;
+            }
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 17px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 7px;
+                font-size: 14px;
+            }
+
+            section {
+                padding: 45px 18px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Maddigalla Bhavana</h1>
+    <p>Software Engineer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            I am Bhavana. I'm pursuing B.Tech in Kandula Lakshumma
+            Memorial College of Engineering for Women. I am interested
+            in software development and enjoy learning new technologies
+            and building practical projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="card skills">
+        <span class="skill">Python</span>
+        <span class="skill">SQL</span>
+        <span class="skill">HTML</span>
+        <span class="skill">AI/ML</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Book Store</h3>
+
+        <p>
+            Developed a simple Book Store web application during the
+            SmartBridge virtual internship to display and manage book
+            information using web development concepts.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>B.Tech – Computer Science and Engineering</h3>
+
+        <p>
+            Kandula Lakshumma Memorial College of Engineering for Women
+        </p>
+
+        <p>Expected Graduation: 2027</p>
+        <p>B.Tech Percentage: 72%</p>
+    </div>
+
+    <div class="card">
+        <h3>Intermediate</h3>
+        <p>Percentage: 68%</p>
+    </div>
+
+    <div class="card">
+        <h3>10th Standard</h3>
+        <p>Percentage: 94.5%</p>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications & Internship</h2>
+
+    <div class="card certificate">
+        <h3>Deloitte Data Analytics Job Simulation</h3>
+        <p>
+            Completed practical tasks related to Data Analysis and
+            Forensic Technology through Forage.
+        </p>
+    </div>
+
+    <div class="card certificate">
+        <h3>SmartBridge + APSCHE Virtual Internship</h3>
+        <p>
+            Completed a Short-Term Virtual Internship in Full Stack
+            Development using MERN Stack.
+        </p>
+    </div>
+
+    <div class="card certificate">
+        <h3>NPTEL Soft Skills Certificate</h3>
+        <p>
+            Completed NPTEL Soft Skills certification in 2025.
+        </p>
+    </div>
+
+    <div class="card certificate">
+        <h3>SQL Research and Development Certificate</h3>
+        <p>
+            Completed certification related to SQL Research and Development.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Connect With Me</h2>
+
+    <div class="card buttons">
+
+        <a href="https://www.linkedin.com/in/bhavana-maddigalla-81b70641a"
+           target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="https://github.com/Bhavana-Maddigalla"
+           target="_blank">
+            GitHub
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Maddigalla Bhavana | Software Engineer</p>
+</footer>
+
+</body>
+</html>
+        
